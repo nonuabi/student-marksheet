@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  subject_one: MyString
+  subject_two: MyString
+  subject_three: MyString
+  subject_four: MyString
+  subject_five: MyString
+
+two:
+  name: MyString
+  subject_one: MyString
+  subject_two: MyString
+  subject_three: MyString
+  subject_four: MyString
+  subject_five: MyString

@@ -1,0 +1,47 @@
+<%= form_with(model: marksheet, local: true) do |form| %>
+  <% if marksheet.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(marksheet.errors.count, "error") %> prohibited this marksheet from being saved:</h2>
+
+      <ul>
+      <% marksheet.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :subject_one %>
+    <%= form.text_field :subject_one %>
+  </div>
+
+  <div class="field">
+    <%= form.label :subject_two %>
+    <%= form.text_field :subject_two %>
+  </div>
+
+  <div class="field">
+    <%= form.label :subject_three %>
+    <%= form.text_field :subject_three %>
+  </div>
+
+  <div class="field">
+    <%= form.label :subject_four %>
+    <%= form.text_field :subject_four %>
+  </div>
+
+  <div class="field">
+    <%= form.label :subject_five %>
+    <%= form.text_field :subject_five %>
+  </div>
+
+  <div class="actions"  class="button-33" >
+    <%=  form.submit %>
+  </div>
+<% end %>

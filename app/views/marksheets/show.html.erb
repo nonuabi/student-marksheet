@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+<div>
+<p class="details-section">
+<strong>Name:</strong>
+<%= @marksheet.name %>
+</p>
+
+<p class="details-section">
+<strong>Subject one:</strong>
+<%= @marksheet.subject_one %>
+</p>
+
+<p class="details-section">
+<strong>Subject two:</strong>
+<%= @marksheet.subject_two %>
+</p>
+
+<p class="details-section">
+<strong>Subject three:</strong>
+<%= @marksheet.subject_three %>
+</p>
+
+<p class="details-section">
+<strong>Subject four:</strong>
+<%= @marksheet.subject_four %>
+</p>
+
+<p class="details-section">
+<strong>Subject five:</strong>
+<%= @marksheet.subject_five %>
+</p>
+
+<%= link_to 'Edit', edit_marksheet_path(@marksheet) %> |
+<%= link_to 'Back', marksheets_path %>
+</div>
